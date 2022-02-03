@@ -1,0 +1,11 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+.intro {
+	height: 100vh;
+	background-color: $black;
+	color: $light-pink;
+	h1 {
+		color: $light-pink !important;
+	}
+}
